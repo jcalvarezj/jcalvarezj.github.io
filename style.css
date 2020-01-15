@@ -1,9 +1,28 @@
-#header {
+body {
+	font-family: Arial;
+}
+
+header {
 	width: 40%;
 	padding: 3px;
 	margin: auto;
 	background-color: lightgreen;	
 	text-align: center;
+	display: flex;
+	flex-direction: column;	
+}
+
+footer {
+	width: 10%;
+	padding: 3px;
+	font-size: 11px;
+	margin: auto;
+	background-color: lightgreen;	
+	text-align: center;
+}
+
+figcaption {
+	font-size: 13px;
 }
 
 #content {
@@ -15,11 +34,20 @@
 	border-style: solid;
 }
 
-#footer {
-	width: 10%;
-	padding: 3px;
-	font-size: 11px;
-	margin: auto;
-	background-color: lightgreen;	
-	text-align: center;
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.menu-item {
+	display: inline-block;
+	padding: 8px 14px;
+	background-color: gold;
+	margin: 0 10px;
+}
+
+.menu a {
+	text-decoration: none;
+	font-weight: bold;
 }
