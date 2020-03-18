@@ -51,3 +51,7 @@ figcaption {
 	text-decoration: none;
 	font-weight: bold;
 }
+
+img {
+	max-width: 650px;
+}
